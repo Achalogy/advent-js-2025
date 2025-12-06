@@ -15,6 +15,7 @@ Repositorio donde estoy subiendo y explicando los retos de [Advent JS](https://a
 |     <img src="https://adventjs.dev/stickers/3-gift-icon.webp" height="50" style="aspect-ratio:294∶311" />      | 03  |         Ayuda al becario         |       🟢       | [Ver](https://adventjs.dev/es/challenges/2025/3) | [Spoiler](https://github.com/Achalogy/advent-js-2025/tree/master/retos/reto-3) |          Aún no disponible          |
 | <img src="https://adventjs.dev/stickers/4-christmas-stocking.webp" height="50" style="aspect-ratio:241∶383" /> | 04  |     Descifra el pin de santa     |       🟠       | [Ver](https://adventjs.dev/es/challenges/2025/4) | [Spoiler](https://github.com/Achalogy/advent-js-2025/tree/master/retos/reto-4) |          Aún no disponible          |
 |   <img src="https://adventjs.dev/stickers/5-bell-with-bow.webp" height="50" style="aspect-ratio:245∶292" />    | 05  | La cuenta atrás para el despegue |       🟢       | [Ver](https://adventjs.dev/es/challenges/2025/5) | [Spoiler](https://github.com/Achalogy/advent-js-2025/tree/master/retos/reto-5) |          Aún no disponible          |
+|   <img src="https://adventjs.dev/stickers/6-product-image.webp" height="50" style="aspect-ratio:410∶337" />    | 05  |       Emparejando guantes        |       🟢       | [Ver](https://adventjs.dev/es/challenges/2025/6) | [Spoiler](https://github.com/Achalogy/advent-js-2025/tree/master/retos/reto-6) |          Aún no disponible          |
 
 [^1]: **Dificultad**: 🟢 Facil 🟠 Media 🔴 Dificil 🟣 Muy Dificil
 
