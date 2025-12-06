@@ -10,7 +10,7 @@ Repositorio donde estoy subiendo y explicando los retos de [Advent JS](https://a
 
 |                                           IMG                                            | ##  |   Nombre del Reto   | Dificultad[^1] |                   Descripción                    |                                   Solución                                   |                Video                |
 | :--------------------------------------------------------------------------------------: | :-: | :-----------------: | :------------: | :----------------------------------------------: | :--------------------------------------------------------------------------: | :---------------------------------: |
-| <img src="https://adventjs.dev/stickers/1-christmas-tree.webp" width="50" height="50" /> | 01  | Filtrar los regalos |       🟢       | [Ver](https://adventjs.dev/es/challenges/2025/1) | [Spoiler](https://github.com/Achalogy/advent-js-2025/tree/main/retos/reto-1) | [Ver](https://youtu.be/4u3yRff4nAM) |
+| <img src="https://adventjs.dev/stickers/1-christmas-tree.webp" height="50" style="aspect-ratio:71∶86" /> | 01  | Filtrar los regalos |       🟢       | [Ver](https://adventjs.dev/es/challenges/2025/1) | [Spoiler](https://github.com/Achalogy/advent-js-2025/tree/main/retos/reto-1) | [Ver](https://youtu.be/4u3yRff4nAM) |
 
 [^1]: **Dificultad**: 🟢 Facil 🟠 Media 🔴 Dificil 🟣 Muy Dificil
 
