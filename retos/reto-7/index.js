@@ -24,5 +24,5 @@ function drawTree(height, ornament, frequency) {
   }
   tree += " ".repeat(maxW/2) + "#"
 
-  return tree.slice(0)
+  return tree
 }
