@@ -8,10 +8,8 @@ function drawGift(size, symbol) {
 
   if (size < 2) return ""
 
-  const topbotton = symbol.repeat(size);
-  const middle = symbol + " ".repeat(Math.max(0, size - 2)) + symbol;
+  const top_bottom = symbol.repeat(size)
+  const middle = symbol + " ".repeat(size - 2) + symbol
 
-  return topbotton + "\n" +
-    (middle + "\n").repeat(Math.max(0, size - 2)) +
-    topbotton
+  return top_bottom + "\n" + (middle + "\n").repeat(size - 2) + top_bottom
 }
