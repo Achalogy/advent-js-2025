@@ -3,33 +3,35 @@
  * @returns {string} The deciphered PIN
  */
 function decodeSantaPin(code) {
+  // Code here
 
   const operations = {
     "+": 1,
     "-": -1
   }
-  // Code here
+
   const instructions = code.replace(/\[/g, "").split("]").slice(0, -1)
 
   let response = ""
   let latest = ""
 
-  instructions.forEach(ins => {
-    if (ins[0] == "<") {
+  for (const instruction of instructions) {
+    if (instruction == "<") {
       response += latest;
-      return;
+      continue;
     }
-    let num = Number(ins[0]);
 
-    for (const char of ins.slice(1)) {
-      num += operations[char];
+    let num = Number(instruction[0]);
+
+    for (const op of instruction.slice(1)) {
+      num += operations[op]
       if (num == -1) num = 9;
-      num = Number(num.toString()?.at(-1))
+      num %= 10;
     }
 
     latest = num.toString();
-    response += latest;
-  })
+    response += num.toString();
+  }
 
-  return response.length == 4 ? response : null
+  return response.length == 4 ? response : null;
 }
