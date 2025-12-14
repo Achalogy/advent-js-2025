@@ -4,17 +4,27 @@
  */
 function matchGloves(gloves) {
   // Code here
-  const count = gloves.reduce((acc, glove) => {
-    acc[glove.color] ||= {
+  const invert_hand = { R: "L", L: "R" }
+
+  let count = {
+  }
+
+  let response = []
+
+  for (const glove of gloves) {
+    count[glove.color] ||= {
       L: 0,
       R: 0
     }
-    acc[glove.color][glove.hand]++;
+    count[glove.color][glove.hand]++
 
-    return acc;
-  }, {})
+    if (count[glove.color][glove.hand] && count[glove.color][invert_hand[glove.hand]]) {
+      count[glove.color][glove.hand]--;
+      count[glove.color][invert_hand[glove.hand]]--;
 
-  return Object.keys(count).flatMap(x =>
-    Array.from({ length: Math.min(count[x].L, count[x].R) }).fill(x)
-  )
+      response.push(glove.color)
+    }
+  }
+
+  return response
 }
